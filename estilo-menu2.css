@@ -1,0 +1,46 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+header{
+   background-color: #492868;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+}
+
+div.container{
+   width: 980px;
+   background-color: brown;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.a, .b, .c, .d, .e{
+   width: 100px;
+   height: 100px;
+   
+}
+
+.a{
+   background-color: red;
+}
+
+.b{
+   background-color: yellow;
+}
+
+.c{
+   background-color: violet;
+}
+.d{
+   background-color: green;
+}
+.e{
+   background-color: cyan;
+}
