@@ -4,6 +4,14 @@
 
 }
 
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 header{
    background-color: #492868;
    height: 200px;
@@ -13,7 +21,7 @@ header{
 
 div.container{
    width: 980px;
-   background-color: brown;
+   background-color: black;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -21,7 +29,7 @@ div.container{
    flex-wrap: wrap;
 }
 
-.a, .b, .c, .d, .e{
+.a, .b, .c, .d, .e, .f{
    width: 100px;
    height: 100px;
 text-align: center;   
@@ -49,4 +57,7 @@ vertical-align: baseline;
    background-color: cyan;
 }
 
+.f{ 
+ background-color: blueviolet;
+}
 
