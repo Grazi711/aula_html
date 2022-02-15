@@ -21,7 +21,7 @@ header{
 
 div.container{
    width: 980px;
-   background-color: black;
+   background-color: rgb(238, 211, 211);
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -29,18 +29,24 @@ div.container{
    flex-wrap: wrap;
 }
 
-.a, .b, .c, .d, .e, .f{
+.a, .b, .c, .d, .e, .f, .g{
    width: 100px;
    height: 100px;
 text-align: center;   
 vertical-align: baseline;
+border-top-left-radius: 50px;
+border: 5px solid #492868;
 
 }
 
 .a{
    background-color: red;
 }
-
+.a:hover, .b:hover{ 
+   background-color: blue;
+   border-top-left-radius: 1px;
+   color: aliceblue;
+}
 .b{
    background-color: yellow;
 }
@@ -61,3 +67,6 @@ vertical-align: baseline;
  background-color: blueviolet;
 }
 
+.g{
+   background-color: lightslategray;
+}
