@@ -1,0 +1,41 @@
+/* cores */
+:root {
+  --laranja:#ff7d00;
+  --branco:#f2f2f2;
+  --verde:#476a37;
+  --verdeclaro: #009562;
+}
+
+*{
+padding:0px;
+margin:0px;
+box-sizing: border-box;
+font-family: 'Nunito', sans-serif;
+
+}
+/*header */
+
+header {
+background-color: #476a37;
+height: 72px ;
+display: flex ;
+justify-content: center;
+}
+
+.container {
+  display:flex;
+  width: 1250px;
+  justify-content: space-between;
+  background-color: #ff7d00;
+    
+}
+
+.logo {
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+}
